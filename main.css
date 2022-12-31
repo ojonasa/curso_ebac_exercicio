@@ -23,6 +23,13 @@ header li {
 
 }
 
+.creation-date {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.61);
+}
+
 header li a {
     color: #e4e4e4;
     text-decoration: none;
@@ -69,7 +76,7 @@ section article {
 
 .articles article a {
     background-color: #309ef8e3;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.808);
     padding: 6px 16px;
     margin-top: 8px;
     display: inline-block;
@@ -101,5 +108,27 @@ section h2 {
 }
 
 #economy {
+    background-color: rgba(255, 255, 103, 0.281);
+}
+#economy .articles article a {
+    background-color: rgba(231, 231, 55, 0.74);
+    color: rgba(0, 0, 0, 0.712);
+}
+
+#tecnology {
     background-color: #309ef85d;
+}
+
+#tecnology .articles article a {
+    background-color: #309ef88a;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+#entertainment {
+    background-color: rgba(241, 81, 81, 0.404);
+}
+
+#entertainment .articles article a {
+    background-color: rgba(228, 62, 62, 0.801);
+    color: rgba(255, 255, 255, 0.76);
 }
