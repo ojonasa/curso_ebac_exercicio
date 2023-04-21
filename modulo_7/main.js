@@ -17,7 +17,7 @@ function validarNum() {
     return B > A
 }
 
-numeroA.addEventListener('keyup', function (e) {
+numeroA.addEventListener('change', function (e) {
     console.log(e.target.value);
     notifMsgOK.style.display = 'none';
 
