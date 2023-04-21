@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+margin: 60px auto;
+max-width: 640px;
+width: 100%;
+}
+
+.container h1 {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(23, 23, 23, 0.89);
+}
+
+.container h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(23, 23, 23, 0.89);
+}
+
+.form-validacao, .a, .b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.a, .b {
+    margin-bottom: 12px;
+}
+
+input {
+    font-size: 12px;
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(23, 23, 23, 0.89);
+    padding-left: 8px;
+}
+
+#btn-validar {
+    font-size: 16px;
+    height: 35px;
+    width: 100px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+
+    color: #fff;
+    background-color: rgba(34, 117, 185, 0.801);
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 12px;
+    
+}
+
+#btn-validar:hover {
+    background-color: rgba(34, 117, 185, 0.95);
+}
+
+
+.error-message {
+    font-size: 12px;
+    color: red;
+    margin-top: 8px;
+    display: none;
+}
+
+.success-message {
+    font-size: 16px;
+    background-color: rgba(41, 156, 41, 0.75);
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 16px;
+    display: none;
+}

@@ -10,12 +10,25 @@
 <body>
 
     <div class="container">
-        <h1>Exercicio de Validação JS.</h1>
-        <form id="form-validacao">
-            <input type="number" id="numero-a" required placeholder="Digite um numero...">
-            <input type="number" id="numero-b" readonly placeholder="">
-            <p id="error-message">* O <b>segundo numero</b> deve ser maior que o <b>número A</b>.</p>
+        <h1>EBAC - Modulo 07</h1>
+        <h2>Exercicio de Validação JS.</h2>
+        <form class="form-validacao">
+            <div class="a">
+                <input type="number" id="numero-a" required placeholder="Digite o numero A">
+            </div>
+
+            <div class="b">
+                <input type="number" id="numero-b" required placeholder="">
+                <p class="error-message">* O <b>Segundo</b> número deve ser maior que o <b>Primeiro</b>.</p>
+            </div>
+
+            <button type="submit" id="btn-validar">Validar</button>
+            <p class="success-message">Validação feita! O número B é maior que o número A.</p>
+
         </form>
+
+
+
     </div>
 
     <script src="main.js"></script>
