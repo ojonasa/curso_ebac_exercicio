@@ -21,6 +21,8 @@ numeroA.addEventListener('change', function (e) {
     console.log(e.target.value);
     notifMsgOK.style.display = 'none';
 
+    numeroB.placeholder = 'Digite o numero B'
+
 })
 
 
@@ -41,8 +43,7 @@ form.addEventListener('submit', function (e) {
 
         numeroA.value = '';
         numeroB.value = '';
-
-
+        numeroB.placeholder = ''
 
     } else {
 
